@@ -4,7 +4,7 @@ Proyecto final para la clase de Metodologia que involucra al BDD Behave que perm
 # Historias de usuario
 ## Estudiante
 
-  ✅ Como # estudiante quiero calcular el área de un cuadrado, para obtener el área de la figura.  
+  ✅ Como estudiante quiero calcular el área de un cuadrado, para obtener el área de la figura.  
   ✅ Como estudiante quiero calcular el área de un triángulo, para obtener el área de la figura.  
   ✅ Como estudiante quiero calcular el área de un círculo, para obtener el área de la figura.  
   ✅ Como estudiante quiero calcular el perímetro de un cuadrado, para obtener el perímetro de la figura.  
