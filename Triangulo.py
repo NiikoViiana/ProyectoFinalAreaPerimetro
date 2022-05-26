@@ -20,4 +20,4 @@ class Triangulo():
 
     def calcularPerimetro(self):
         perimetro = self.ladoUno + self.ladoDos + self.ladoTres
-        return 'El área del triangulo es: ' + str(perimetro) + ' cm'
+        return 'El perimetro del triangulo es: ' + str(perimetro) + ' cm'

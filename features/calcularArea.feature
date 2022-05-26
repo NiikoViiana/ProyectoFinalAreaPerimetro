@@ -12,3 +12,10 @@ Feature: Calcular el área de una figura geométrica
     And Elijo la figura geométrica Triangulo para el area
     When Añado la base y la altura del triangulo para el area
     Then Ver el área del triangulo
+
+
+  Scenario: Área de un circulo
+    Given Accedo al formulario de Calcular Áreas Circulo
+    And Elijo la figura geométrica Circulo para el area
+    When Añado el diametro del circulo para el area
+    Then Ver el área del circulo

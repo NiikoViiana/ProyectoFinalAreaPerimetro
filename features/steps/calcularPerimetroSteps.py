@@ -1,6 +1,7 @@
 from behave import *
 from Cuadrado import *
 from Triangulo import *
+from Circulo import *
 
 @given('Accedo al formulario de Calcular Perímetro')
 def ejecutarFormulario(context):
@@ -41,3 +42,23 @@ def ingresarDatosTriangulo(context):
 @then('Ver el perímetro del triangulo')
 def calcularPerimetroTriangulo(context):
     context.triangulo.calcularPerimetro()
+
+##circulo
+@given('Accedo al formulario de Calcular Perímetro circulo')
+def ejecutarFormularioCirculo(context):
+    context.circulo = Circulo()
+
+
+@given('Elijo la figura geométrica circulo para el perímetro')
+def elegirFiguraCriculo(context):
+    context.circulo = Circulo()
+
+
+@when('Añado diametro del circulo para el perímetro')
+def ingresarDatosCirculo(context):
+    context.circulo.establecerParametros(10)
+
+
+@then('Ver el perímetro del circulo')
+def calcularPerimetroCircuo(context):
+    context.circulo.calcularPerimetro()
