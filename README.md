@@ -20,6 +20,27 @@ Proyecto final para la clase de Metodologia que involucra al BDD Behave que perm
   - Los datos ingresados se toman en centímetros
 
 # Lenguaje Gherkin
+![Image text](https://github.com/NiikoViiana/ProyectoFinalAreaPerimetro/blob/main/imagenes/areaFeature.png)
+![Image text](https://github.com/NiikoViiana/ProyectoFinalAreaPerimetro/blob/main/imagenes/periodoFeature.png)
+
+# Código
+## Steps Feature Area
+![Image text](https://github.com/NiikoViiana/ProyectoFinalAreaPerimetro/blob/main/imagenes/AreaStep.png)
+![Image text](https://github.com/NiikoViiana/ProyectoFinalAreaPerimetro/blob/main/imagenes/areaStepTriangulo.png)
+![Image text](https://github.com/NiikoViiana/ProyectoFinalAreaPerimetro/blob/main/imagenes/AreaStepCirculo.png)
+
+## Steps Feature Perimetro
+![Image text](https://github.com/NiikoViiana/ProyectoFinalAreaPerimetro/blob/main/imagenes/perimetroStepCuadrado.png)
+![Image text](https://github.com/NiikoViiana/ProyectoFinalAreaPerimetro/blob/main/imagenes/PerimetroStepTriangulo.png)
+![Image text](https://github.com/NiikoViiana/ProyectoFinalAreaPerimetro/blob/main/imagenes/perimetroStepCirculo.png)
+
+## Clases
+### Cuadrado
+![Image text](https://github.com/NiikoViiana/ProyectoFinalAreaPerimetro/blob/main/imagenes/CuadradoClass.png)
+### Triangulo
+![Image text](https://github.com/NiikoViiana/ProyectoFinalAreaPerimetro/blob/main/imagenes/TrianguloClass.png)
+### Circulo
+![Image text](https://github.com/NiikoViiana/ProyectoFinalAreaPerimetro/blob/main/imagenes/CirculoClass.png)
 
 
 # Pruebas de aceptación
@@ -30,4 +51,4 @@ Proyecto final para la clase de Metodologia que involucra al BDD Behave que perm
 ### Feature: Calcular el perímetro de una figura geométrica
 ![Image text](https://raw.githubusercontent.com/NiikoViiana/ProyectoFinalAreaPerimetro/main/imagenes/perimetro.jpeg)
 
-# Código
+
