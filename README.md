@@ -1,9 +1,22 @@
 # ProyectoFinalAreaPerimetro
 Proyecto final para la clase de Metodologia que involucra al BDD Behave que permita calcular el area y perimetro de las figuras cuadrado, triangulo y circulo
-## Creadores
+
+## Integrantes
 - Natalia Paez
 - Nicolas Viana
 - William Sanabria
+
+## Datos de la aplicación
+- Python 3.10.4
+- BDD Behave 1.2.6
+- Pip 22.0.0
+- Uso de lenguaje Gherkin
+
+## Instrucciones para usar el proyecto
+- Clonar el proyecto `git clone https://github.com/NiikoViiana/ProyectoFinalAreaPerimetro.git`
+- Ejecutar Features
+  - - Para calcular el area: `behave .\features\calcularArea.feature`
+  - - Para calcular el perimtero: `behave .\features\calcularPerimetro.feature` 
 
 
 # Historias de usuario
