@@ -9,3 +9,7 @@ class Cuadrado():
     def calcularArea(self):
         area = self.lados*self.lados
         return  'El área del cuadrado es: '+str(area)+' cm'
+
+    def calcularPerimetro(self):
+        area = self.lados+self.lados+self.lados
+        return  'El área del cuadrado es: '+str(area)+' cm'
