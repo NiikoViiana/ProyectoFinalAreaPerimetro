@@ -5,3 +5,10 @@ Feature: Calcular el perímetro de una figura geométrica
     And Elijo la figura geométrica Cuadrado para el perímetro
     When Añado la longitud del cuadrado para el perímetro
     Then Ver el perímetro del cuadrado
+
+
+  Scenario: Perímetro de un triangulo
+    Given Accedo al formulario de Calcular Perímetro triangulo
+    And Elijo la figura geométrica Triangulo para el perímetro
+    When Añado los tres lados del triangulo para el perímetro
+    Then Ver el perímetro del triangulo

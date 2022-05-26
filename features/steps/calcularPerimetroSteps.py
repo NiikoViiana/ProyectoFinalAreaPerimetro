@@ -1,5 +1,6 @@
 from behave import *
 from Cuadrado import *
+from Triangulo import *
 
 @given('Accedo al formulario de Calcular Perímetro')
 def ejecutarFormulario(context):
@@ -19,3 +20,24 @@ def darLongitudCuadrado(context):
 @then('Ver el perímetro del cuadrado')
 def calcularPerimetro(context):
     context.cuadrado.calcularArea()
+
+
+##Triangulo
+@given('Accedo al formulario de Calcular Perímetro triangulo')
+def ejecutarFormularioTriangulo(context):
+    context.triangulo = Triangulo()
+
+
+@given('Elijo la figura geométrica Triangulo para el perímetro')
+def elegirFiguraTriangulo(context):
+    context.triangulo = Triangulo()
+
+
+@when('Añado los tres lados del triangulo para el perímetro')
+def ingresarDatosTriangulo(context):
+    context.triangulo.establecerParametros(10, 15, 12, 16.16, 16.16)
+
+
+@then('Ver el perímetro del triangulo')
+def calcularPerimetroTriangulo(context):
+    context.triangulo.calcularPerimetro()
