@@ -1,5 +1,10 @@
 # ProyectoFinalAreaPerimetro
 Proyecto final para la clase de Metodologia que involucra al BDD Behave que permita calcular el area y perimetro de las figuras cuadrado, triangulo y circulo
+## Creadores
+- Natalia Paez
+- Nicolas Viana
+- William Sanabria
+
 
 # Historias de usuario
 ## Estudiante
