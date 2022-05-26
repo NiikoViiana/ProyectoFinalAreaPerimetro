@@ -59,6 +59,6 @@ def ingresarDatosCirculo(context):
     context.circulo.establecerParametros(10)
 
 
-@then('Ver el área del triangulo')
+@then('Ver el área del circulo')
 def calcularAreaCirculo(context):
     context.circulo.calcularArea()
