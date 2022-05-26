@@ -19,8 +19,15 @@ Proyecto final para la clase de Metodologia que involucra al BDD Behave que perm
 ## Reglas o normas de trabajo:
   - Los datos ingresados se toman en centímetros
 
+# Lenguaje Gherkin
+
+
 # Pruebas de aceptación
 ## Estudiante
 ### Feature: Calcular el área de una figura geométrica
+![Image text](https://raw.githubusercontent.com/NiikoViiana/ProyectoFinalAreaPerimetro/main/imagenes/area.jpeg)
 
 ### Feature: Calcular el perímetro de una figura geométrica
+![Image text](https://raw.githubusercontent.com/NiikoViiana/ProyectoFinalAreaPerimetro/main/imagenes/perimetro.jpeg)
+
+# Código
